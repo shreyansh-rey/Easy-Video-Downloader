@@ -1,0 +1,264 @@
+My application does nothing but executes cmd commands from gallery-dl.
+Find gallery-dl here : https://github.com/mikf/gallery-dl?tab=readme-ov-file#installation
+
+This application uses gallery-dl to download videos from these supported websites :
+1. 2ch : https://2ch.net/
+2. 2chen : https://2chen.moe/
+3. 35PHOTO : https://35photo.pro/
+4. 3dbooru : https://3dbooru.com/
+5. 4archive : https://4archive.org/
+6. 4chan : https://4chan.org/
+7. 4chanarchives : https://4chanarchives.com/
+8. 500px : https://500px.com/
+9. 8chan : https://8chan.moe/
+10. 8muses : https://8muses.com/
+11. Acidimg : https://acidimg.cc/
+12. Adobe Portfolio : https://portfolio.adobe.com/
+13. Adult Empire : https://adultempire.com/
+14. Architizer : https://architizer.com/
+15. ArtStation : https://artstation.com/
+16. BATO.TO : https://bato.to/
+17. BBC : https://bbc.co.uk/
+18. Behance : https://behance.net/
+19. Bluesky : https://bsky.app/
+20. Bunkr : https://bunkr.is/
+21. Catbox : https://catbox.moe/
+22. Comic Vine : https://comicvine.gamespot.com/
+23. Coomer : https://coomer.party/
+24. Cyberdrop : https://cyberdrop.me/
+25. Desktopography : https://desktopography.net/
+26. DeviantArt : https://deviantart.com/
+27. Dynasty Reader : https://dynasty-scans.com/
+28. E-Hentai : https://e-hentai.org/
+29. Eka's Portal : https://aryion.com/
+30. EroMe : https://erome.com/
+31. ExHentai : https://exhentai.org/
+32. Fallen Angels Scans : https://fallenangelscans.com/
+33. Fanleaks : https://fanleaks.org/
+34. Fantia : https://fantia.jp/
+35. Fapachi : https://fapachi.com/
+36. Fapello : https://fapello.com/
+37. Fappic : https://fappic.com/
+38. Flickr : https://flickr.com/
+39. Fur Affinity : https://furaffinity.net/
+40. Fuskator : https://fuskator.com/
+41. Futaba Channel : https://2chan.net/
+42. Gelbooru : https://gelbooru.com/
+43. Gofile : https://gofile.io/
+44. HatenaBlog : https://hatenablog.com/
+45. Hentai Cosplay : https://hentaicosplay.com/
+46. Hentai Foundry : https://hentai-foundry.com/
+47. Hentai Image : https://hentai-image.com/
+48. Hentai2Read : https://hentai2read.com/
+49. HentaiFox : https://hentaifox.com/
+50. HentaiHand : https://hentaihand.com/
+51. HentaiHere : https://hentaihere.com/
+52. HentaiNexus : https://hentainexus.com/
+53. Hiperdex : https://hiperdex.com/
+54. Hitomi.la : https://hitomi.la/
+55. Hotleak : https://hotleak.vip/
+56. Idol Complex : https://idol.sankakucomplex.com/
+57. ImageBam : https://imagebam.com/
+58. ImageChest : https://imagechest.com/
+59. ImageFap : https://imagefap.com/
+60. Imagetwist : https://imagetwist.com/
+61. Imagevenue : https://imagevenue.com/
+62. ImgBB : https://imgbb.com/
+63. imgbox : https://imgbox.com/
+64. Imgclick : https://imgclick.net/
+65. Imgspice : https://imgspice.com/
+66. imgth : https://imgth.com/
+67. imgur : https://imgur.com/
+68. Imxto : https://imxto.com/
+69. Inkbunny : https://inkbunny.net/
+70. Instagram : https://instagram.com/
+71. Issuu : https://issuu.com/
+72. Itaku : https://itaku.ee/
+73. itch.io : https://itch.io/
+74. Keenspot : https://keenspot.com/
+75. Kemono : https://kemono.party/
+76. Khinsider : https://downloads.khinsider.com/
+77. Komikcast : https://komikcast.me/
+78. Lensdump : https://lensdump.com/
+79. Lexica : https://lexica.art/
+80. Lightroom : https://lightroom.adobe.com/
+81. livedoor Blog : https://blog.livedoor.com/
+82. Luscious : https://luscious.net/
+83. Manga Fox : https://fanfox.net/
+84. Manga Here : https://mangahere.cc/
+85. MangaDex : https://mangadex.org/
+86. MangaKakalot : https://mangakakalot.com/
+87. MangaLife : https://manga4life.com/
+88. Manganato : https://manganato.com/
+89. MangaPark : https://mangapark.net/
+90. MangaRead : https://mangaread.org/
+91. MangaSee : https://mangasee123.com/
+92. Mangoxo : https://mangoxo.com/
+93. My Hentai Gallery : https://myhentaigallery.com/
+94. Naver : https://naver.com/
+95. NaverWebtoon : https://webtoon.naver.com/
+96. Newgrounds : https://newgrounds.com/
+97. nhentai : https://nhentai.net/
+98. Niconico Seiga : https://seiga.nicovideo.jp/
+99. Nozomi.la : https://nozomi.la/
+100. NSFWalbum.com : https://nsfwalbum.com/
+101. Patreon : https://patreon.com/
+102. PhotoVogue : https://photovogue.art/
+103. Picarto : https://picarto.tv/
+104. Piczel : https://piczel.tv/
+105. Pillowfort : https://pillowfort.social/
+106. Pinterest : https://pinterest.com/
+107. pixeldrain : https://pixeldrain.com/
+108. Pixhost : https://pixhost.to/
+109. Pixiv : https://pixiv.net/
+110. pixivFANBOX : https://fanbox.cc/
+111. Pixnet : https://pixnet.net/
+112. Plurk : https://plurk.com/
+113. Poipiku : https://poipiku.com/
+114. Poringa : https://poringa.net/
+115. Porn Image : https://pornimage.xyz/
+116. Pornhub : https://pornhub.com/
+117. PornPics.com : https://pornpics.com/
+118. Postimg : https://postimg.cc/
+119. Pururin : https://pururin.to/
+120. Read Comic Online : https://readcomiconline.to/
+121. Reddit : https://reddit.com/
+122. RedGIFs : https://redgifs.com/
+123. rule #34 : https://rule34.paheal.net/
+124. Rule 34 : https://rule34.xxx/
+125. Sankaku Channel : https://chan.sankakucomplex.com/
+126. Sankaku Complex : https://sankakucomplex.com/
+127. Sen Manga : https://senmanga.com/
+128. Sex.com : https://sex.com/
+129. Simply Hentai : https://simply-hentai.com/
+130. Skeb : https://skeb.jp/
+131. SlickPic : https://slickpic.com/
+132. SlideShare : https://slideshare.net/
+133. SmugMug : https://smugmug.com/
+134. Soundgasm : https://soundgasm.net/
+135. Speaker Deck : https://speakerdeck.com/
+136. SteamGridDB : https://steamgriddb.com/
+137. SubscribeStar : https://subscribestar.adult/
+138. Tapas : https://tapas.io/
+139. TCB Scans : https://tcbscans.com/
+140. Telegraph : https://telegra.ph/
+141. TMOHentai : https://tmohentai.com/
+142. Toyhouse : https://toyhou.se/
+143. Tsumino : https://tsumino.com/
+144. Tumblr : https://tumblr.com/
+145. TumblrGallery : https://tumblrgallery.xyz/
+146. Turboimagehost : https://turboimagehost.com/
+147. Twibooru : https://twibooru.org/
+148. Twitter : https://twitter.com/
+149. Unsplash : https://unsplash.com/
+150. Uploadir : https://uploadir.com/
+151. Urlgalleries : https://urlgalleries.net/
+152. Vipergirls : https://vipergirls.to/
+153. Vipr : https://vipr.im/
+154. VK : https://vk.com/
+155. VSCO : https://vsco.co/
+156. Wallhaven : https://wallhaven.cc/
+157. Wallpaper Cave : https://wallpapercave.com/
+158. Warosu : https://warosu.org/
+159. Weasyl : https://weasyl.com/
+160. webmshare : https://webmshare.com/
+161. Webtoon : https://webtoons.com/
+162. Weibo : https://weibo.com/
+163. WikiArt.org : https://wikiart.org/
+164. Wikifeet : https://wikifeet.com/
+165. Wikifeetx : https://wikifeetx.com/
+166. xHamster : https://xhamster.com/
+167. XVideos : https://xvideos.com/
+168. Zerochan : https://zerochan.net/
+169. Zzup : https://zzup.com/
+170. かべうち : https://kabe-uchiroom.com/
+171. もえぴりあ : https://moepedia.net/
+172. Blogspot : https://blogspot.com/
+173. MIC MIC IDOL : https://micmicidol.com/
+174. JPG Fish : https://jpg.fish/
+175. IMG.Kiwi : https://img.kiwi/
+176. DeltaPorno : https://deltaporno.com/
+177. Danbooru : https://danbooru.donmai.us/
+178. ATFBooru : https://atfbooru.ninja/
+179. Aibooru : https://aibooru.online/
+180. Booruvar : https://booru.varishangout.com/
+181. e621 : https://e621.net/
+182. e926 : https://e926.net/
+183. e6AI : https://e6ai.net/
+184. The /co/llection : https://the-collection.booru.org/
+185. Illusion Game Cards : https://illusioncards.booru.org/
+186. All girl : https://allthefallen.moe/
+187. Draw Friends : https://drawfriends.booru.org/
+188. /v/idyart2 : https://vidyart.booru.org/
+189. Realbooru : https://realbooru.com/
+190. Rule 34 : https://rule34.booru.org/
+191. Safebooru : https://safebooru.org/
+192. The Big ImageBoard : https://tbib.org/
+193. Hypnohub : https://hypnohub.net/
+194. Xbooru : https://xbooru.com/
+195. 94chan : https://94chan.org/
+196. Bbw-chan : https://bbw-chan.nl/
+197. Kohlchan : https://kohlchan.net/
+198. Endchan : https://endchan.net/
+199. Misskey.io : https://misskey.io/
+200. Misskey.design : https://misskey.design/
+201. Lesbian.energy : https://lesbian.energy/
+202. Sushi.ski : https://sushi.ski/
+203. nijie : https://nijie.info/
+204. horne : https://horne.red/
+205. Raddle : https://raddle.me/
+206. Reactor : https://reactor.cc/
+207. JoyReactor : https://joyreactor.cc/
+208. PornReactor : https://pornreactor.cc/
+209. ThatPervert : https://thatpervert.com/
+210. Loudbooru : https://loudbooru.com/
+211. Giantessbooru : https://giantessbooru.com/
+212. Tentaclerape : https://tentaclerape.net/
+213. Cavemanon : https://cavemanon.com/
+214. Rule34Hentai : https://rule34hentai.net/
+215. Vidya Booru : https://vidyabooru.com/
+216. Foalcon : https://foalcon.com/
+217. Bcbnsfw : https://bcbnsfw.booru.org/
+218. Snootbooru : https://snootbooru.booru.org/
+219. Bitly : https://bitly.com/
+220. Twitter t.co : https://t.co/
+221. 8kun : https://8kun.top/
+222. Smugloli : https://smugloli.net/
+223. Wikimedia : https://wikimedia.org/
+224. Wikispecies : https://species.wikimedia.org/
+225. Wikimedia Commons : https://commons.wikimedia.org/
+226. MediaWiki : https://mediawiki.org/
+227. Fandom : https://fandom.com/
+228. wiki.gg : https://wiki.gg/
+229. Super Mario Wiki : https://mariowiki.com/
+230. Bulbapedia : https://bulbapedia.bulbagarden.net/
+231. PidgiWiki : https://www.pidgi.net/wiki/
+232. Azur Lane Wiki : https://azurlane.koumakan.jp/
+233. yande.re : https://yande.re/
+234. Konachan : https://konachan.com/
+235. Sakugabooru : https://www.sakugabooru.com/
+236. Lolibooru : https://lolibooru.moe/
+237. 4plebs : https://archive.4plebs.org/
+238. Archived.Moe : https://archived.moe/
+239. Archive of Sins : https://desuarchive.org/
+240. arch.b4k.co : https://arch.b4k.co/
+241. Desuarchive : https://desuarchive.org/
+242. Fireden : https://fireden.net/
+243. Palanq : https://palanq.win/
+244. RebeccaBlackTech : https://rbt.asia/
+245. The /b/ Archive : https://thebarchive.com/
+246. mastodon.social : https://mastodon.social/
+247. Pawoo : https://pawoo.net/
+248. baraag : https://baraag.net/
+249. Chelseacrew : https://chelseacrew.com/
+250. Fashion Nova : https://fashionnova.com/
+251. Loungeunderwear : https://loungeunderwear.com/
+252. Michaelscameras : https://michaels.com.au/
+253. Modcloth : https://modcloth.com/
+254. Oh Polly : https://ohpolly.com/
+255. Omg Miami Swimwear : https://omgmiamiswimwear.com/
+256. Pinupgirlclothing : https://pinupgirlclothing.com/
+257. Raidlondon : https://raidlondon.com/
+258. Unique-vintage : https://unique-vintage.com/
+259. Windsorstore : https://www.windsorstore.com/
+260. xBunkr : https://xbunkr.com/
