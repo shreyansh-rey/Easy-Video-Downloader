@@ -8,4 +8,4 @@ Note:
 	Double click and open it using notepad to edit it, there is an example destination in the config file.
 		Still here's an example : 
 			D:\My-Folder
-			You can name the folder anything you want to, if the folder doesn't exists then a folder with that name will be created.
+	You can name the folder anything you want to, if the folder doesn't exists then a folder with that name will be created.
